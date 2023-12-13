@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@100;200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,500&display=swap');
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.main-div{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    display: flex;
+width: 256px;
+height: 930px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+flex-shrink: 0;
+background: #234361;
+}
+
+.home-container{
+    display: flex;
+padding: 0px 16px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+
+.home-container div{
+    margin: 20px 0;
+    display: flex;
+height: 42px;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+align-self: stretch;
+border-radius: 12px;
+background: var(--maintertiary-500, #0086FF);
+}
+
+.home-logo{
+    display: flex;
+width: 24px;
+height: 24px;
+justify-content: center;
+align-items: center;
+}
+
+.home-title{
+    color: var(--foundation-white, #FFF);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-family: 'PT Sans', sans-serif;
+}
+
+.cluster{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+margin: 10px 16px;
+}
+
+.cluster span{
+    color: rgba(255, 255, 255, 0.70);
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-family: 'PT Sans', sans-serif;
+}
+
+
+.cluster button{
+    display: flex;
+height: 26px;
+padding: 10px 8px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 4px;
+border: 1px solid var(--maintertiary-500, #0086FF);
+background: var(--mainprimary-500, #124D9B);
+}
+
+.cluster button span{
+    color: var(--foundation-white, #FFF);
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.paytm-con{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.paytm{
+    display: flex;
+    margin-top: -20px;
+padding: 14px 16px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
+
+.paytm-logo{
+    display: flex;
+width: 20px;
+height: 20px;
+justify-content: center;
+align-items: center;
+}
+
+.paytm span{
+    color: var(--foundation-white, #FFF);
+font-family: "Montserrat";
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.7;
+font-family: 'PT Sans', sans-serif;
+position: absolute;
+left: 50px;
+}
+
+.paytm-arrow{
+    display: flex;
+width: 24px;
+height: 24px;
+justify-content: center;
+align-items: center;
+opacity: 0.6;
+}
+
+hr{
+    color: black;
+    width: 80%;
+    margin: 2px 0 5px 0;
+    margin-left: 10%;
+    opacity: 0.2;
+}
+
+.help{
+    display: flex;
+height: 56px;
+padding: 14px 16px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+}
+
+.help-logo{
+    display: flex;
+width: 20px;
+height: 20px;
+justify-content: center;
+align-items: center;
+}
+
+.help-title{
+    color: var(--foundation-white, #FFF);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.7;
+position: absolute;
+left: 50px;
+}
+
+.help-button{
+    display: flex;
+padding: 8px 10px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 6px;
+background: rgba(255, 255, 255, 0.10);
+}
+
+.help-button span{
+    color: var(--foundation-white, #FFF);
+font-family: Montserrat;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.sign-out{
+    display: flex;
+padding: 8px 16px;
+align-items: center;
+gap: 12px;
+align-self: stretch;
+opacity: 0.7;
+
+}
+
+.sign-out div{
+    display: flex;
+padding: 10px 16px;
+align-items: center;
+gap: 12px;
+flex: 1 0 0;
+align-self: stretch;
+border-radius: 8px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.sign-logo{
+    display: flex;
+width: 20px;
+height: 20px;
+justify-content: center;
+align-items: center;
+}
+
+.sign-out div span{
+    color: var(--foundation-white, #FFF);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.build{
+    display: flex;
+padding: 0px 16px;
+align-items: flex-start;
+gap: 10px;
+align-self: stretch;
+}
+
+.build span{
+    color: #ABABAB;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
